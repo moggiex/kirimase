@@ -113,6 +113,7 @@ export const getUserAuth = async () => {
           id: userId,
           name: \`\${sessionClaims?.firstName} \${sessionClaims?.lastName}\`,
           email: sessionClaims?.email,
+          custom: "You need to set these values & more in Clerk. Find out more about setting up 'sessionClaims' (custom sessions) here: https://clerk.com/docs/backend-requests/making/custom-session-token"
         },
       },
     } as AuthSession;
