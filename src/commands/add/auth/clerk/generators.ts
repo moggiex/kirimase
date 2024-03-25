@@ -99,6 +99,7 @@ export type AuthSession = {
       id: string;
       name?: string;
       email?: string;
+      custom: string
     };
   } | null;
 };
