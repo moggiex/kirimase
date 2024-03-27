@@ -1598,7 +1598,7 @@ export default function Optimistic${tableNameSingularCapitalised}({
 
   return (
     <div className="m-4">
-      <Modal open={open} setOpen={setOpen}>
+      <Modal open={open} setOpen={setOpen} title={`Edit ${tableNameSingularCapitalised}`}>
         <${tableNameSingularCapitalised}Form
           ${tableNameSingular}={optimistic${tableNameSingularCapitalised}}
           ${
